@@ -1,5 +1,6 @@
-let number = 1;
-while (number<=7) {
-    console.log(number);
-    number = number + 1;
+let text = "#";
+let counter = 1;
+for (counter; counter<7; counter = counter + 1) {
+    console.log(text);
+    text = text + "#";
 }
