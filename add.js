@@ -6,8 +6,12 @@ for (counter; counter<7; counter = counter + 1) {
 }
 
 let number = 1;
+let fizz = 3;
+let buzz = 5;
 
 while (number<101) {
-    console.log(number)
+    if (number % fizz === 0)
+    console.log("fizz")
+else console.log(number)
     number = number + 1;
 }
