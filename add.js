@@ -22,3 +22,12 @@ while (number<101) {
     else console.log(number)
     number = number + 1;
 }
+
+let chess = " ";
+let siffra = 0;
+
+while (siffra< 8) {
+    if (siffra = siffra + 1);
+    console.log("#")
+        
+}
