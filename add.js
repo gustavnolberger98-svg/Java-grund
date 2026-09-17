@@ -10,7 +10,10 @@ let fizz = 3;
 let buzz = 5;
 
 while (number<101) {
-    if (number % fizz === 0)
+    if (number % 3 === 0 && number % 5 === 0)
+    console.log("fizzbuzz")
+
+    else if (number % fizz === 0)
     console.log("fizz")
 
     else if (number % buzz === 0)
