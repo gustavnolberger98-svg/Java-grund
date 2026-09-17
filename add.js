@@ -12,6 +12,10 @@ let buzz = 5;
 while (number<101) {
     if (number % fizz === 0)
     console.log("fizz")
-else console.log(number)
+
+    else if (number % buzz === 0)
+    console.log("buzz")
+
+    else console.log(number)
     number = number + 1;
 }
