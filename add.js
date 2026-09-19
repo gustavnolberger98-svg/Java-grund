@@ -32,7 +32,7 @@ while (rad < 8) {
     siffra = 0;
 
     while (siffra < 8) {
-        if (siffra % 2 === 0) 
+        if ((rad + siffra) % 2 === 0) 
             chess = chess + "#"
         else 
             chess = chess + " "
