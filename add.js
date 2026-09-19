@@ -23,11 +23,24 @@ while (number<101) {
     number = number + 1;
 }
 
-let chess = " ";
+let chess = "";
 let siffra = 0;
+let rad = 0;
 
-while (siffra< 8) {
-    if (siffra = siffra + 1);
-    console.log("#")
-        
+while (rad < 8) {
+
+    siffra = 0;
+
+    while (siffra < 8) {
+        if ((rad + siffra) % 2 === 0) 
+            chess = chess + "#"
+        else 
+            chess = chess + " "
+            siffra = siffra + 1;
+    }
+    chess = chess + "\n";
+
+    rad = rad + 1;            
 }
+
+console.log(chess);
